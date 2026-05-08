@@ -1,0 +1,19 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define GREEN_LIGHT_DELAY      3000
+#define YELLOW_LIGHT_DELAY     1000
+#define RED_LIGHT_DELAY        2000
+
+#define HIGH_TRAFFIC_DELAY     5000
+
+#define SENSOR_UPDATE_DELAY    5000
+
+#define EMERGENCY_INTERVAL     15000
+#define EMERGENCY_DURATION     7000
+
+#define LOGGER_DELAY           10000
+
+#define WATCHDOG_DELAY         8000
+
+#endif

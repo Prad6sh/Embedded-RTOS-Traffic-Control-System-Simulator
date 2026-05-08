@@ -1,13 +1,10 @@
 #ifndef TRAFFIC_TASK_H
 #define TRAFFIC_TASK_H
 
-typedef enum
-{
-    RED,
-    GREEN,
-    YELLOW
-}TrafficLightState;
+#include <windows.h>
 
-void runTrafficLight();
+DWORD WINAPI northSouthTrafficTask(LPVOID arg);
+
+DWORD WINAPI eastWestTrafficTask(LPVOID arg);
 
 #endif
